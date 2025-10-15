@@ -1,4 +1,4 @@
-# 🍋 Lemon Perp - Decentralized Perpetual Futures Trading Platform
+# 🍋 Lemon Markets - Decentralized Perpetual Futures Trading Platform
 
 A next-generation decentralized trading platform offering unlimited markets with up to 100x leverage. Trade any asset class from crypto to traditional markets with our innovative perpetual futures protocol.
 
@@ -15,7 +15,7 @@ A next-generation decentralized trading platform offering unlimited markets with
 
 ## 🏗️ Complete System Architecture
 
-Lemon Perp is a comprehensive decentralized perpetual futures trading ecosystem consisting of multiple interconnected components working together to provide a seamless trading experience.
+Lemon Markets is a comprehensive decentralized perpetual futures trading ecosystem consisting of multiple interconnected components working together to provide a seamless trading experience.
 
 ### 📋 Architecture Overview
 
@@ -362,7 +362,7 @@ export function useMiniAppActions() {
 // public/.well-known/farcaster.json
 {
   "schemaVersion": "1.0.0",
-  "name": "Lemon Perp",
+  "name": "Lemon Markets",
   "description": "Decentralized perpetual futures trading with unlimited markets",
   "icon": "https://lemon-perp.com/icon.png",
   "homeUrl": "https://lemon-perp.com",
@@ -381,7 +381,7 @@ export function useMiniAppActions() {
 **4. User Experience Enhancements:**
 - **Native User Integration**: Access to Farcaster user profile and social graph
 - **Seamless Sharing**: One-click trade result sharing to Farcaster timeline
-- **Collection Integration**: Users can add Lemon Perp to their Mini App collection
+- **Collection Integration**: Users can add Lemon Markets to their Mini App collection
 - **Context Awareness**: App behavior adapts based on Mini App vs web context
 - **Safe Area Handling**: Proper UI adaptation for mobile Farcaster clients
 

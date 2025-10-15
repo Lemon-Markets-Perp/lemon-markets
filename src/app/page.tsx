@@ -14,15 +14,15 @@ export default function Home() {
 	const fadeInUp = {
 		initial: { opacity: 0, y: 60 },
 		animate: { opacity: 1, y: 0 },
-		transition: { duration: 0.6 }
+		transition: { duration: 0.6 },
 	};
 
 	const staggerContainer = {
 		animate: {
 			transition: {
-				staggerChildren: 0.1
-			}
-		}
+				staggerChildren: 0.1,
+			},
+		},
 	};
 
 	useEffect(() => {
@@ -36,29 +36,29 @@ export default function Home() {
 	const faqItems = [
 		{
 			question:
-				"How does Lemon Perp use lemon markets in digital asset management?",
-			answer: "Lemon Perp leverages advanced market mechanisms to provide efficient trading solutions for digital assets."
+				"How does Lemon Markets use lemon markets in digital asset management?",
+			answer: "Lemon Markets leverages advanced market mechanisms to provide efficient trading solutions for digital assets.",
 		},
 		{
-			question: "Which cryptocurrencies does Lemon Perp support?",
-			answer: "We support major cryptocurrencies including Bitcoin, Ethereum, and various ERC-20 tokens."
+			question: "Which cryptocurrencies does Lemon Markets support?",
+			answer: "We support major cryptocurrencies including Bitcoin, Ethereum, and various ERC-20 tokens.",
 		},
 		{
-			question: "How do I get started with Lemon Perp?",
-			answer: "Simply connect your Web3 wallet, select a trading pair, and start trading with our intuitive interface."
+			question: "How do I get started with Lemon Markets?",
+			answer: "Simply connect your Web3 wallet, select a trading pair, and start trading with our intuitive interface.",
 		},
 		{
 			question: "Can I recover my wallet if I lose my device?",
-			answer: "Yes, you can recover your wallet using your seed phrase or backup methods provided by your wallet provider."
+			answer: "Yes, you can recover your wallet using your seed phrase or backup methods provided by your wallet provider.",
 		},
 		{
-			question: "Is Lemon Perp available globally?",
-			answer: "Lemon Perp is available in most countries, subject to local regulations and compliance requirements."
+			question: "Is Lemon Markets available globally?",
+			answer: "Lemon Markets is available in most countries, subject to local regulations and compliance requirements.",
 		},
 		{
-			question: "Does Lemon Perp offer customer support?",
-			answer: "Yes, we provide 24/7 customer support through various channels including chat and email."
-		}
+			question: "Does Lemon Markets offer customer support?",
+			answer: "Yes, we provide 24/7 customer support through various channels including chat and email.",
+		},
 	];
 
 	return (
@@ -381,23 +381,23 @@ export default function Home() {
 							{
 								phase: "Phase I",
 								content:
-									"Finalize multi-chain support (Ethereum, Bitcoin, EVM chains).\n\nPartner with oracles (e.g., Chainlink) for secure data feeds.\n\nComplete third-party security audits."
+									"Finalize multi-chain support (Ethereum, Bitcoin, EVM chains).\n\nPartner with oracles (e.g., Chainlink) for secure data feeds.\n\nComplete third-party security audits.",
 							},
 							{
 								phase: "Phase II",
 								content:
-									"Invite 1,000+ users to test AI-driven insights and cross-chain swaps.\n\nOptimize UI/UX and resolve edge-case vulnerabilities."
+									"Invite 1,000+ users to test AI-driven insights and cross-chain swaps.\n\nOptimize UI/UX and resolve edge-case vulnerabilities.",
 							},
 							{
 								phase: "Phase III",
 								content:
-									"Release web and mobile platforms with core features (AI dashboards, self-custody).\n\nLaunch global marketing and partner with liquidity providers."
+									"Release web and mobile platforms with core features (AI dashboards, self-custody).\n\nLaunch global marketing and partner with liquidity providers.",
 							},
 							{
 								phase: "Phase IV",
 								content:
-									"Integrate DeFi protocols (Uniswap, Aave) and Layer-2 networks.\n\nAdd staking, governance, and institutional tools."
-							}
+									"Integrate DeFi protocols (Uniswap, Aave) and Layer-2 networks.\n\nAdd staking, governance, and institutional tools.",
+							},
 						].map((item, index) => (
 							<motion.div
 								key={index}
@@ -524,13 +524,13 @@ export default function Home() {
 								<div className="flex items-center space-x-3 mb-4 md:mb-0">
 									<Image
 										src="/image/logo-footer.png"
-										alt="Lemon Perp Logo"
+										alt="Lemon Markets Logo"
 										width={40}
 										height={40}
 										className="rounded"
 									/>
 									<span className="text-xl font-semibold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-										Lemon Perp
+										Lemon Markets
 									</span>
 								</div>
 								<nav className="flex flex-wrap gap-6">
@@ -614,7 +614,9 @@ export default function Home() {
 					</div>
 
 					<div className="flex flex-col md:flex-row md:items-center md:justify-between pt-8 border-t border-white/20 text-white/60">
-						<p>Copyright © 2025 Lemon Perp. All rights reserved.</p>
+						<p>
+							Copyright © 2025 Lemon Markets. All rights reserved.
+						</p>
 						<div className="flex space-x-6 mt-4 md:mt-0">
 							<a
 								href="#"
