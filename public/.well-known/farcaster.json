@@ -1,0 +1,24 @@
+{
+	"accountAssociation": {
+		"header": "eyJmaWQiOjM1Mjc0NSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDlENGFERDFBRjVGRjhEM0FFMzgwN0NlOUM0OGEwOTI5NkVmOEFhODEifQ",
+		"payload": "eyJkb21haW4iOiJkZW1vLmxlbW9ubWFya2V0cy54eXoifQ",
+		"signature": "MHg5MjZiNGZjZjcxZTg2NjhkZjk3ZmIzYWM3ZTAyN2I1MWEyYTIyNzhmNGZlN2Y5YTM4NjllNDU1ODEzYjFkOGNjNWZhZDUzMzc1ZTBlMmUzYjE4NjIwMmM2MGE2ZmE0NmNlZmRjMmNiN2RiNTc0MzE4NmVjNDliNTVkNDE0NmEzMTFi"
+	},
+	"miniapp": {
+		"version": "1",
+		"name": "Lemon Markets",
+		"iconUrl": "https://demo.lemonmarkets.xyz/image/logo.png",
+		"homeUrl": "https://demo.lemonmarkets.xyz",
+		"imageUrl": "https://demo.lemonmarkets.xyz/image/features-image.png",
+		"buttonTitle": "Start Trading",
+		"splashImageUrl": "https://demo.lemonmarkets.xyz/image/logo.png",
+		"splashBackgroundColor": "#000000",
+		"description": "A decentralized trading platform for perpetual futures",
+		"subtitle": "Trade perps with leverage",
+		"primaryCategory": "finance",
+		"tags": ["trading", "defi", "perpetuals", "leverage"],
+		"ogTitle": "Lemon Markets - Perp Trading",
+		"ogDescription": "Trade perpetual futures with leverage on a decentralized platform",
+		"ogImageUrl": "https://demo.lemonmarkets.xyz/image/features-image.png"
+	}
+}
